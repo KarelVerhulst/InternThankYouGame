@@ -1,0 +1,883 @@
+fileFormatVersion: 2
+guid: 9aca0bab1e87a49c198e31bce9b481ee
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -310657790103802973
+    second: UpRobotPipeEnemy_0
+  - first:
+      213: -3868262329210231006
+    second: UpRobotPipeEnemy_1
+  - first:
+      213: 3405300196796304242
+    second: UpRobotPipeEnemy_2
+  - first:
+      213: -3793558847512156599
+    second: UpRobotPipeEnemy_3
+  - first:
+      213: -1503063361199499900
+    second: UpRobotPipeEnemy_4
+  - first:
+      213: 1489828693079740600
+    second: UpRobotPipeEnemy_5
+  - first:
+      213: -8840787805789506874
+    second: UpRobotPipeEnemy_6
+  - first:
+      213: 8508561473152183215
+    second: UpRobotPipeEnemy_7
+  - first:
+      213: -4572482635165741623
+    second: UpRobotPipeEnemy_8
+  - first:
+      213: -9045788280430935220
+    second: UpRobotPipeEnemy_9
+  - first:
+      213: -3193427530178315507
+    second: UpRobotPipeEnemy_10
+  - first:
+      213: 1811470239076692032
+    second: UpRobotPipeEnemy_11
+  - first:
+      213: -8739863099789595380
+    second: UpRobotPipeEnemy_12
+  - first:
+      213: 6585684477207405953
+    second: UpRobotPipeEnemy_13
+  - first:
+      213: 6581876394592096317
+    second: UpRobotPipeEnemy_14
+  - first:
+      213: -8931160551017567784
+    second: UpRobotPipeEnemy_15
+  - first:
+      213: -334187865653209424
+    second: LeftLookRobotPipeEnemy_0
+  - first:
+      213: 7553016039197881407
+    second: LeftLookRobotPipeEnemy_1
+  - first:
+      213: -3119036518813294813
+    second: LeftLookRobotPipeEnemy_2
+  - first:
+      213: 900125573365585920
+    second: LeftLookRobotPipeEnemy_3
+  - first:
+      213: 5042246640887909106
+    second: LeftLookRobotPipeEnemy_4
+  - first:
+      213: 280248109811284309
+    second: NeutralLeftRobotPipeEnemy_0
+  - first:
+      213: 6623882773993062303
+    second: NeutralLeftRobotPipeEnemy_1
+  - first:
+      213: 1680447753690589953
+    second: NeutralLeftRobotPipeEnemy_2
+  - first:
+      213: 5561769555843328410
+    second: NeutralLeftRobotPipeEnemy_3
+  - first:
+      213: 935283888601856978
+    second: RightRobotPipeEnemy_0
+  - first:
+      213: -1788901834889747141
+    second: RightRobotPipeEnemy_1
+  - first:
+      213: -5403309795523217900
+    second: RightRobotPipeEnemy_2
+  - first:
+      213: 5672089880048460006
+    second: NeutralRightRobotPipeEnemy_0
+  - first:
+      213: -5206038122330169479
+    second: NeutralRightRobotPipeEnemy_1
+  - first:
+      213: 2064033227855172139
+    second: NeutralRightRobotPipeEnemy_2
+  - first:
+      213: 299786923800862544
+    second: NeutralRightRobotPipeEnemy_3
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4d98336a6604e4db50285cf1319f21
+      internalID: -310657790103802973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08d615de2230e45d39c9fb4e82d41347
+      internalID: -3868262329210231006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44efd20d8457d426e944f591289178fd
+      internalID: 3405300196796304242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4b673e5f59340de9deb2b012247541
+      internalID: -3793558847512156599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679b83290dde247d2b15bf411b84068b
+      internalID: -1503063361199499900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_5
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9236f0338813a4bd499c543bcb45fe17
+      internalID: 1489828693079740600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_6
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c77db310b864272b70a96ec96ec6be
+      internalID: -8840787805789506874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_7
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56b276d39cf045fbb5c0bd5905548ce
+      internalID: 8508561473152183215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_8
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ee48d7bcd9c1451dadca86e147777fa
+      internalID: -4572482635165741623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_9
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbcd7e91cda44443b6551cf2d20be13
+      internalID: -9045788280430935220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_10
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371c2b9e19d284093abac711d4311797
+      internalID: -3193427530178315507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_11
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd55b2c6973964495abbdfbfdb08a52e
+      internalID: 1811470239076692032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_12
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85365a30db5a743d3a16565ff58754e3
+      internalID: -8739863099789595380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_13
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3058565555e4a4790afdcf981934e8
+      internalID: 6585684477207405953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_14
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f8bbcecb6924c739e5d66be4399ac5
+      internalID: 6581876394592096317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: UpRobotPipeEnemy_15
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 68
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f4a5ae116c94814ac23857e530fdde
+      internalID: -8931160551017567784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLookRobotPipeEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646829a46a1fa42dfaeec98d0d982912
+      internalID: -334187865653209424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLookRobotPipeEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1424e081efc24673959c074cc0e5e01
+      internalID: 7553016039197881407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLookRobotPipeEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b8a8eb61445f41db8c0e9ae5f2ff6ae
+      internalID: -3119036518813294813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLookRobotPipeEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb80504823c446cb8071a38fcb0c8fb
+      internalID: 900125573365585920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LeftLookRobotPipeEnemy_4
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24f9b401418b4fac8d2b4291db544e4
+      internalID: 5042246640887909106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeutralLeftRobotPipeEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 615fcfc384efb421a9e9b81662df59d7
+      internalID: 280248109811284309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeutralLeftRobotPipeEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1042a54a43269471bb9a93a86ba63d74
+      internalID: 6623882773993062303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeutralLeftRobotPipeEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2992b3073a23948389f0d3c42f0749ee
+      internalID: 1680447753690589953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeutralLeftRobotPipeEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0236ca8264ab042dc85b5160781375ef
+      internalID: 5561769555843328410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightRobotPipeEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa25f09ab03048e2a3dfeabff3aa3db
+      internalID: 935283888601856978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightRobotPipeEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb01f618f2ff4858b17bc1deb6da3b4
+      internalID: -1788901834889747141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RightRobotPipeEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 470d82bcfc79048e9a1b9dc8f36db13a
+      internalID: -5403309795523217900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeutralRightRobotPipeEnemy_0
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c77b3b47a1d94ea186cb1db463dc786
+      internalID: 5672089880048460006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeutralRightRobotPipeEnemy_1
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ca1bf93f7e2145559d1afe8d963f93a
+      internalID: -5206038122330169479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeutralRightRobotPipeEnemy_2
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bdd7256e7a794311a0779d46f8ac80f
+      internalID: 2064033227855172139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NeutralRightRobotPipeEnemy_3
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25f04c6ecba094b1ba54e56cc05a5150
+      internalID: 299786923800862544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
