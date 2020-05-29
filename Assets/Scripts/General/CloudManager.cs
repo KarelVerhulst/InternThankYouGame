@@ -6,6 +6,8 @@ public class CloudManager : MonoBehaviour
 {
     [SerializeField] private List<CloudBehaviour> _cloudPrefabs = new List<CloudBehaviour>();
     [SerializeField] private int _amountOfTypeClouds = 5;
+    [SerializeField] private float _cloudTime = 0.5f;
+    [SerializeField] private float _cloudRepeatTime = 20f;
 
     private List<CloudBehaviour> _clouds = new List<CloudBehaviour>();
     private int _index = 0;
@@ -36,13 +38,13 @@ public class CloudManager : MonoBehaviour
                 _cloudsAmount += _amountOfTypeClouds;
             }
 
-            CloudBehaviour obj = Instantiate(_cloudPrefabs[_index]);
+            CloudBehaviour obj = Instantiate(_cloudPrefabs[_index], this.transform);
             obj.Buffer = buffer;
             obj.gameObject.SetActive(false);
             _clouds.Add(obj);
         }
 
-        InvokeRepeating("SpawnCloud", 0.5f, 5f);
+        InvokeRepeating("SpawnCloud", _cloudTime, _cloudRepeatTime);
     }
 
     private void SpawnCloud()
@@ -63,20 +65,5 @@ public class CloudManager : MonoBehaviour
             _clouds[randIndex].CamWidth = camWidth;
 
         }
-
-        //for (int i = 0; i < _clouds.Count; i++)
-        //{
-        //    if (!_clouds[i].gameObject.activeInHierarchy)
-        //    {
-        //        camWidth = Camera.main.orthographicSize * Camera.main.aspect;
-
-        //        _clouds[i].gameObject.SetActive(true);
-        //        _clouds[i].transform.position = new Vector2(Camera.main.transform.position.x + camWidth + buffer, Random.Range(minY, maxY));
-        //        _clouds[i].Speed = Random.Range(minSpeed, maxSpeed);
-        //        _clouds[i].CamWidth = camWidth;
-
-        //        break;
-        //    }
-        //}
     }
 }
