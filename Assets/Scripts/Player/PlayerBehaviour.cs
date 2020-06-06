@@ -34,6 +34,7 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private float collisionSideRadius = 0.25f;
 
     [SerializeField] private List<Animator> _spriteCharacters = new List<Animator>();
+    [SerializeField] private ParticleSystem _dustEffect = null;
 
 
     private Animator _animator = null;
@@ -47,21 +48,16 @@ public class PlayerBehaviour : MonoBehaviour
     private PlayerState _currentState;
 
     private bool _oneTime = true;
-    private int _lifeIndex = 3;
 
-    public int LifeIndex
-    {
-        get { return _lifeIndex; }
-        set
-        {
-            _lifeIndex = value;
-        }
-    }
+    private float _lastMovedirect;
+    private bool icy = false;
+    [SerializeField] private float _slideSpeed = 1.9f;
 
-    void Awake()
+    public int LifeIndex { get; set; }
+
+    private void Awake()
     {
-        //remove this
-        PlayerPrefs.SetInt("CharacterSpriteIndex", 0);
+        LifeIndex = PlayerPrefs.GetInt("lifes");
     }
 
     void Start()
@@ -81,13 +77,41 @@ public class PlayerBehaviour : MonoBehaviour
             _currentState = PlayerState.Dead;
         }
 
+        if (_currentState == PlayerState.Dead)
+        {
+            _animator.SetTrigger("TriggerHit");
+            return;
+        }
+
         _moveInput = Input.GetAxis("Horizontal");
+
+        float inputMagnitude = Mathf.Min(new Vector2(_moveInput, 0).sqrMagnitude, 1f);
+
+
+
+        if (inputMagnitude > 0.2f)
+        {
+            _lastMovedirect = _moveInput;
+
+        }
+
+        if (icy)
+        {
+
+            _moveInput = _lastMovedirect * _slideSpeed;
+
+        }
+        else
+        {
+            _moveInput *= speed;
+        }
 
         if (onGround)
         {
             if (Mathf.Abs(_moveInput) > 0)
             {
                 _currentState = PlayerState.Walk;
+                CreateDust();
             }
             else
             {
@@ -101,18 +125,19 @@ public class PlayerBehaviour : MonoBehaviour
         {
             _currentState = PlayerState.Fall;
         }
-        
+
+       
+
 
         if (Input.GetButtonDown("Jump") && onGround)
         {
             _currentState = PlayerState.Jump;
+            CreateDust();
         }
 
         if (_currentState == PlayerState.Idle)
         {
-
             _rb.velocity = new Vector2(0, _rb.velocity.y);
-            
         }
 
         if (_currentState == PlayerState.Jump)
@@ -136,7 +161,7 @@ public class PlayerBehaviour : MonoBehaviour
                 _rb.velocity += Vector2.up * Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime;
             }
         }
-        
+
 
 
     }
@@ -146,8 +171,8 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (_currentState == PlayerState.Walk || _currentState == PlayerState.Fall)
         {
-            
-            _rb.velocity = new Vector2(_moveInput * speed, _rb.velocity.y);
+
+            _rb.velocity = new Vector2(_moveInput, _rb.velocity.y);
 
             _animator.SetInteger("Movement", (int)Mathf.Abs(_rb.velocity.x));
 
@@ -166,7 +191,7 @@ public class PlayerBehaviour : MonoBehaviour
         if (hitOnTheSide)
         {
             _animator.SetTrigger("TriggerHit");
-            
+
             _playerCollider.enabled = false;
             _rb.constraints = RigidbodyConstraints2D.FreezeAll;
 
@@ -174,8 +199,8 @@ public class PlayerBehaviour : MonoBehaviour
 
             if (_oneTime)
             {
-                LifeIndex--;
-                this.GetComponent<UIPlayerBehaviour>().EmptyALifeHeart(LifeIndex);
+                ReduceLife();
+
                 _oneTime = false;
             }
         }
@@ -208,5 +233,34 @@ public class PlayerBehaviour : MonoBehaviour
         scaler.x *= -1;
 
         this.transform.localScale = scaler;
+       
+    }
+
+    private void CreateDust()
+    {
+        _dustEffect.Play();
+    }
+
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        icy = collision.CompareTag("Ice");
+    }
+
+    public void ReduceLife()
+    {
+        LifeIndex--;
+        this.GetComponent<UIPlayerBehaviour>().EmptyALifeHeart(LifeIndex);
+    }
+
+    public void IncreaseLife()
+    {
+        this.GetComponent<UIPlayerBehaviour>().FillALifeHeart(LifeIndex);
+        LifeIndex++;
+    }
+
+    public void PlayHitAnimation()
+    {
+        _animator.SetTrigger("TriggerHit");
     }
 }

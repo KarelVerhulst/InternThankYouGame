@@ -14,7 +14,7 @@ public class CoinBehaviour : MonoBehaviour
         if (_playerMask == (_playerMask | (1 << collision.gameObject.layer)))
         {
             collision.GetComponent<UIPlayerBehaviour>().Score++;
-            _audio.PlayOneShot(_coinSound);
+            PlayCoinSound();
             this.GetComponent<SpriteRenderer>().enabled = false;
             this.GetComponent<CircleCollider2D>().enabled = false;
 
@@ -25,5 +25,10 @@ public class CoinBehaviour : MonoBehaviour
     private void DestroyObject()
     {
         Destroy(this.gameObject);
+    }
+
+    public void PlayCoinSound()
+    {
+        _audio.PlayOneShot(_coinSound);
     }
 }

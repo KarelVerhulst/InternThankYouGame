@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Index.unity
     guid: 2733ab553569e4ccb94a91faf5f03bd4
   - enabled: 1
+    path: Assets/Scenes/CharacterSelection.unity
+    guid: 6dae8464ba0ad4e9d8ae929f8a0aaafb
+  - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: f9b983e3769694837aaa04693076f6a1
   - enabled: 1
@@ -17,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Castle.unity
     guid: 1f35be19493b0431fab8bd812ebbc41e
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: fa80a0b0e1aac4fbeb7a7d87c79fb02f
   m_configObjects: {}

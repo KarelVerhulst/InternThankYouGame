@@ -23,7 +23,9 @@ public class IndexBehaviour : MonoBehaviour
 
     private void MoveRandomPlayer()
     {
-        Animator characterSprite = Instantiate(_spriteCharacters[0], this.transform);
+        int randIndex = Random.Range(0, _spriteCharacters.Count);
+
+        Animator characterSprite = Instantiate(_spriteCharacters[randIndex], this.transform);
         characterSprite.transform.position = _waypoints[0].position;
 
         _animator = characterSprite;

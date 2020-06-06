@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class CameraBehaviour : MonoBehaviour
 {
@@ -10,13 +12,18 @@ public class CameraBehaviour : MonoBehaviour
     [SerializeField] private Vector3 _minCameraPos;
     [SerializeField] private Vector3 _maxCameraPos;
 
+    [Header("Shake Options")]
+    [SerializeField] private float _shakeDuration = 0;
+    [SerializeField] private Vector3 _shakeStrength = Vector3.one;
+
+
     private Vector2 _velocity;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))
         {
-            Application.LoadLevel(Application.loadedLevel);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }
     }
 
@@ -36,4 +43,16 @@ public class CameraBehaviour : MonoBehaviour
                 Mathf.Clamp(transform.position.z, _minCameraPos.z, _maxCameraPos.z));
         }
     }
+
+
+    public void ShakeCamera()
+    {
+        Camera.main.transform.DOShakePosition(_shakeDuration, _shakeStrength);
+    }
 }
+
+
+
+
+
+

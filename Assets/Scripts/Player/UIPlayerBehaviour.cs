@@ -29,6 +29,24 @@ public class UIPlayerBehaviour : MonoBehaviour
         score = PlayerPrefs.GetInt("CoinScore");
 
         _scoreText.text = score.ToString();
+
+        setAmountofHearts();
+    }
+
+    private void setAmountofHearts() {
+        int lifes = PlayerPrefs.GetInt("lifes");
+        
+        for (int i = 0; i < _listOfHearts.Count; i++)
+        {
+            if (i < lifes)
+            {
+                _listOfHearts[i].sprite = _fullHeart;
+            }
+            else
+            {
+                _listOfHearts[i].sprite = _emptyHeart;
+            }
+        }
     }
 
     public void ActiveSpecialCoinAtIndex(int index)
@@ -39,10 +57,12 @@ public class UIPlayerBehaviour : MonoBehaviour
     public void EmptyALifeHeart(int index)
     {
         _listOfHearts[index].sprite = _emptyHeart;
+        PlayerPrefs.SetInt("lifes", index);
     }
 
     public void FillALifeHeart(int index)
     {
         _listOfHearts[index].sprite = _fullHeart;
+        PlayerPrefs.SetInt("lifes", index);
     }
 }

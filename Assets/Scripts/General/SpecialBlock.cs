@@ -19,16 +19,31 @@ public class SpecialBlock : MonoBehaviour
     {
         if (_playerMask == (_playerMask | (1 << other.gameObject.layer)) && _useOneTime)
         {
-            BounceBlock();
+            BounceBlock(other);
             _useOneTime = false;
         }
     }
 
-    private void BounceBlock()
+    private void BounceBlock(Collider2D other)
     {
-        Camera.main.transform.DOShakePosition(.2f, new Vector3(0, 2, 0), 0);
-        _animator.SetTrigger("ActivateSpecialBox");
+        Camera.main.GetComponent<CameraBehaviour>().ShakeCamera();
+
         _reward = Instantiate(_rewardObject, _rewardPosition.position, Quaternion.identity);
+
+        if (_reward.TryGetComponent<CoinBehaviour>(out CoinBehaviour coin))
+        {
+            coin.PlayCoinSound();
+        }
+
+        if (_reward.TryGetComponent<HeartBehaviour>(out HeartBehaviour heart))
+        {
+            
+            //other.GetComponentInParent<UIPlayerBehaviour>().FillALifeHeart(other.GetComponentInParent<PlayerBehaviour>().LifeIndex);
+            //other.GetComponentInParent<PlayerBehaviour>().LifeIndex++;
+            other.GetComponentInParent<PlayerBehaviour>().IncreaseLife();
+            //heart.PlayHeartSound();
+        }
+        
 
         this.gameObject.layer = LayerMask.NameToLayer("Ground");
 
@@ -38,11 +53,6 @@ public class SpecialBlock : MonoBehaviour
     private void DestroyObject()
     {
         _reward.SetActive(false);
-    }
-
-    public void ChangeColorBlock()
-    {
-        GetComponent<SpriteRenderer>().color = Color.magenta;
     }
 
 }

@@ -149,7 +149,8 @@ public class GroundEnemeyBehaviour : MonoBehaviour
     {
         if (_playerBottomMask == (_playerBottomMask | (1 << collision.gameObject.layer)))
         {
-            Camera.main.transform.DOShakePosition(.2f, new Vector3(0,2,0), 0);
+            Camera.main.GetComponent<CameraBehaviour>().ShakeCamera();
+
             _currentState = EnemyState.Dead;
 
             collision.GetComponentInParent<Rigidbody2D>().velocity = Vector2.up * 5;

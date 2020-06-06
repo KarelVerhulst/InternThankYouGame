@@ -101,8 +101,10 @@ MonoBehaviour:
   _smoothTime: {x: 0.2, y: 0.2}
   _player: {fileID: 0}
   _useBounds: 1
-  _minCameraPos: {x: -13.91, y: -4.5, z: -10}
-  _maxCameraPos: {x: 440, y: 21, z: -10}
+  _minCameraPos: {x: -17, y: -4.7, z: -10}
+  _maxCameraPos: {x: 336, y: 26, z: -10}
+  _shakeDuration: 1
+  _shakeStrength: {x: 0.5, y: 0.5, z: 0.5}
 --- !u!61 &3407100779012053518
 BoxCollider2D:
   m_ObjectHideFlags: 0

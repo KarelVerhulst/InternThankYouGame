@@ -1,76 +1,76 @@
 fileFormatVersion: 2
-guid: edd771ff7ff3948c6a22d94892756c04
+guid: 17d506dd3f290495688929b7f3176243
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1643439230802711232
-    second: Karel_Fall
+      213: 1344516210438466639
+    second: Karel_0
   - first:
-      213: -8938696658993415530
-    second: Karel_Hit_1
+      213: 6933101296828115631
+    second: Karel_1
   - first:
-      213: 1892319392778454592
-    second: Karel_Hit_2
+      213: 5798044275332566542
+    second: Karel_2
   - first:
-      213: -997459078110693798
-    second: Karel_Walk_1
+      213: -25454729315306956
+    second: Karel_3
   - first:
-      213: 8603948231296180111
-    second: Karel_Walk_2
+      213: -2199400214002856890
+    second: Karel_4
   - first:
-      213: -3561541152348371500
-    second: Karel_Walk_3
+      213: 2708872934301262417
+    second: Karel_5
   - first:
-      213: -8970823133523294693
-    second: Karel_Walk_4
+      213: -9037435311835570563
+    second: Karel_6
   - first:
-      213: 8282134734835689388
-    second: Karel_Walk_5
+      213: -254213026134204400
+    second: Karel_7
   - first:
-      213: 5699057803036733230
-    second: Karel_Walk_6
+      213: -4153873895491702720
+    second: Karel_8
   - first:
-      213: -7749488132460335684
-    second: Karel_Walk_7
+      213: -1271920660127560959
+    second: Karel_9
   - first:
-      213: 6834143483791519741
-    second: Karel_Walk_8
+      213: -8341231811420674521
+    second: Karel_10
   - first:
-      213: 430942526854398193
-    second: Karel_Walk_9
+      213: 7085272909003184451
+    second: Karel_11
   - first:
-      213: -2591366732697900055
-    second: Karel_Walk_10
+      213: 8300330384972206238
+    second: Karel_12
   - first:
-      213: 1686993514094916641
-    second: Karel_Walk_11
+      213: -8349776751343421220
+    second: Karel_13
   - first:
-      213: -7869540821932939976
-    second: Karel_Walk_12
+      213: 6152218808611578917
+    second: Karel_14
   - first:
-      213: -2432281071291446180
-    second: Karel_Walk_13
+      213: -182589492795563633
+    second: Karel_15
   - first:
-      213: 1294250325932175855
-    second: Karel_Walk_14
+      213: 8364980930693073207
+    second: Karel_16
   - first:
-      213: -6520772785311669559
-    second: Karel_Walk_15
+      213: 7100675403972076399
+    second: Karel_17
   - first:
-      213: -3195128526510669651
-    second: Karel_Walk_16
+      213: 1811205416284851663
+    second: Karel_18
   - first:
-      213: 835026662853126234
-    second: Karel_Idle_1
+      213: -612720172790869506
+    second: Karel_19
   - first:
-      213: 4533678284166988894
-    second: Karel_Idle_2
+      213: -7751895303927824541
+    second: Karel_20
   - first:
-      213: -3575741568930728644
-    second: Karel_Idle_3
+      213: -3928811408945249250
+    second: Karel_21
   - first:
-      213: -5380110932187173158
-    second: Karel_Idle_4
+      213: -3952860545764921096
+    second: Karel_22
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -129,9 +129,9 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -141,9 +141,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -153,9 +153,9 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: iPhone
-    maxTextureSize: 2048
+    maxTextureSize: 512
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -167,7 +167,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Karel_Fall
+      name: Karel_0
       rect:
         serializedVersion: 2
         x: 0
@@ -181,14 +181,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93494465984ff4692a4a0966a107d8ae
-      internalID: -1643439230802711232
+      spriteID: 7f63087146b0b42c383d819b1112030c
+      internalID: 1344516210438466639
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Hit_1
+      name: Karel_1
       rect:
         serializedVersion: 2
         x: 47
@@ -202,14 +202,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f954bbe81ecdd4b919f9258bd7463dbd
-      internalID: -8938696658993415530
+      spriteID: aae997b2320c84645a05b5cd771a91ae
+      internalID: 6933101296828115631
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Hit_2
+      name: Karel_2
       rect:
         serializedVersion: 2
         x: 94
@@ -223,14 +223,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad8cc38d6b93b40d19840dd73fdf8a67
-      internalID: 1892319392778454592
+      spriteID: 6e779fc77566c4185ab6e03320e6976c
+      internalID: 5798044275332566542
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_1
+      name: Karel_3
       rect:
         serializedVersion: 2
         x: 141
@@ -244,14 +244,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 644cfffbb03cc4695812d4e5d1b7fe6f
-      internalID: -997459078110693798
+      spriteID: 096b4556c3153494e89f744132b5292e
+      internalID: -25454729315306956
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_2
+      name: Karel_4
       rect:
         serializedVersion: 2
         x: 188
@@ -265,14 +265,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7efee398c9b8b41dfbe96aafabf6e991
-      internalID: 8603948231296180111
+      spriteID: 6f27d752c86ff423a8de5be82b92a4d0
+      internalID: -2199400214002856890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_3
+      name: Karel_5
       rect:
         serializedVersion: 2
         x: 235
@@ -286,14 +286,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c766bd0e47c934ff6b9fc772cf764b2d
-      internalID: -3561541152348371500
+      spriteID: 3012792dcaa8347c9af479340c9e56fa
+      internalID: 2708872934301262417
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_4
+      name: Karel_6
       rect:
         serializedVersion: 2
         x: 0
@@ -307,14 +307,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f42ad75c44f344547837c8ace1e57bd3
-      internalID: -8970823133523294693
+      spriteID: c4703bb9c5a4448dba599faa5922db49
+      internalID: -9037435311835570563
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_5
+      name: Karel_7
       rect:
         serializedVersion: 2
         x: 47
@@ -328,14 +328,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24f2661aa4c024caa8319161bc17a8ef
-      internalID: 8282134734835689388
+      spriteID: bfe24b89679fb48f39ac1d0ccf499486
+      internalID: -254213026134204400
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_6
+      name: Karel_8
       rect:
         serializedVersion: 2
         x: 94
@@ -349,14 +349,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1af434cc415cf4099a730413596b794b
-      internalID: 5699057803036733230
+      spriteID: 6742951af755c47f3864d45c0fe9d172
+      internalID: -4153873895491702720
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_7
+      name: Karel_9
       rect:
         serializedVersion: 2
         x: 141
@@ -370,14 +370,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 97353f25883ef470fa8fb9d125e0517a
-      internalID: -7749488132460335684
+      spriteID: 0613705a113d845ad892f03bbfabbfbe
+      internalID: -1271920660127560959
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_8
+      name: Karel_10
       rect:
         serializedVersion: 2
         x: 188
@@ -391,14 +391,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d61abc15e7a7345948399db03a4bd2f0
-      internalID: 6834143483791519741
+      spriteID: 4ba2ee2c1d6fb4a89aad5b0ff1e3fc66
+      internalID: -8341231811420674521
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_9
+      name: Karel_11
       rect:
         serializedVersion: 2
         x: 235
@@ -412,14 +412,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b20d3be67a034661a92a79427b5f225
-      internalID: 430942526854398193
+      spriteID: c910ec52506724910bc7fe7172e68ace
+      internalID: 7085272909003184451
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_10
+      name: Karel_12
       rect:
         serializedVersion: 2
         x: 0
@@ -433,14 +433,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d88f1b331d9c64df8995aedeb5ac317d
-      internalID: -2591366732697900055
+      spriteID: c155e8c81d5ff4ab190250cdd9b9ceef
+      internalID: 8300330384972206238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_11
+      name: Karel_13
       rect:
         serializedVersion: 2
         x: 47
@@ -454,14 +454,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 85052517a38c64900abb3cff5f7c8783
-      internalID: 1686993514094916641
+      spriteID: 8806adb83c08f4cbfad67e735064ff3f
+      internalID: -8349776751343421220
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_12
+      name: Karel_14
       rect:
         serializedVersion: 2
         x: 94
@@ -475,14 +475,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55451de39536e404ba0edd68a9269ede
-      internalID: -7869540821932939976
+      spriteID: 1d526b1644a71476ca390f993e683321
+      internalID: 6152218808611578917
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_13
+      name: Karel_15
       rect:
         serializedVersion: 2
         x: 141
@@ -496,14 +496,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e43842757210430bb105259dfb225f9
-      internalID: -2432281071291446180
+      spriteID: 0bdf0bf9a152d4ff1bd2225ae514752c
+      internalID: -182589492795563633
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_14
+      name: Karel_16
       rect:
         serializedVersion: 2
         x: 188
@@ -517,14 +517,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75da6b636405b4a7689d545c37ee8bf3
-      internalID: 1294250325932175855
+      spriteID: ae8f2b89bc0f7461a8e11cef889cd12a
+      internalID: 8364980930693073207
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_15
+      name: Karel_17
       rect:
         serializedVersion: 2
         x: 235
@@ -538,14 +538,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 16b10dbf5789548239b9adb3b08fac05
-      internalID: -6520772785311669559
+      spriteID: 9fd453b6c4f8049208d3eb5e81c53c79
+      internalID: 7100675403972076399
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Walk_16
+      name: Karel_18
       rect:
         serializedVersion: 2
         x: 0
@@ -559,14 +559,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1596c63a9ffdf44e9812cc8b8913d278
-      internalID: -3195128526510669651
+      spriteID: 3614c6712df5747edab3468cf09107a9
+      internalID: 1811205416284851663
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Idle_1
+      name: Karel_19
       rect:
         serializedVersion: 2
         x: 47
@@ -580,14 +580,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 750192c1fd9bb4b5b9c4ccdb13aa521e
-      internalID: 835026662853126234
+      spriteID: 9986a4c15466b420a92ce5afa2e7aac0
+      internalID: -612720172790869506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Idle_2
+      name: Karel_20
       rect:
         serializedVersion: 2
         x: 94
@@ -601,14 +601,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8814c4de1c9bc4584b8d56865e9e48ee
-      internalID: 4533678284166988894
+      spriteID: 0c00b325e7c5c4d3fb7746ed6f3c2bdc
+      internalID: -7751895303927824541
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Idle_3
+      name: Karel_21
       rect:
         serializedVersion: 2
         x: 141
@@ -622,14 +622,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ddf88e427708a42b29f7873b7c84b63a
-      internalID: -3575741568930728644
+      spriteID: 07a7eae33fa8a4390b53dd6cdfa32ba2
+      internalID: -3928811408945249250
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Karel_Idle_4
+      name: Karel_22
       rect:
         serializedVersion: 2
         x: 188
@@ -643,8 +643,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4390f7024cb948b3a79745e433b2e70
-      internalID: -5380110932187173158
+      spriteID: 04faa34b8ae604206a08eac2cc62e2ce
+      internalID: -3952860545764921096
       vertices: []
       indices: 
       edges: []

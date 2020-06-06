@@ -10,6 +10,8 @@ public class UIBehaviour : MonoBehaviour
     [SerializeField] private RectTransform _indexPanel = null;
     [SerializeField] private RectTransform _howToPlayPanel = null;
 
+
+
     public void GoToScene(int sceneIndex)
     {
         SceneManager.LoadScene(sceneIndex);
@@ -33,7 +35,4 @@ public class UIBehaviour : MonoBehaviour
     {
         Application.Quit();
     }
-
-   
-
 }
