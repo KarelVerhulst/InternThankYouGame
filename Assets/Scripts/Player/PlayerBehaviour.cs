@@ -249,14 +249,21 @@ public class PlayerBehaviour : MonoBehaviour
 
     public void ReduceLife()
     {
-        LifeIndex--;
-        this.GetComponent<UIPlayerBehaviour>().EmptyALifeHeart(LifeIndex);
+        if (LifeIndex > 0)
+        {
+            LifeIndex--;
+            this.GetComponent<UIPlayerBehaviour>().EmptyALifeHeart(LifeIndex);
+        }
     }
 
     public void IncreaseLife()
-    {
-        this.GetComponent<UIPlayerBehaviour>().FillALifeHeart(LifeIndex);
-        LifeIndex++;
+    {  
+        if (LifeIndex < 3)
+        {
+            this.GetComponent<UIPlayerBehaviour>().FillALifeHeart(LifeIndex);
+            LifeIndex++;
+        }
+        
     }
 
     public void PlayHitAnimation()

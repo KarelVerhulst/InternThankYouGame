@@ -37,8 +37,11 @@ public class BulletBehaviour : MonoBehaviour
     {
         if (_hitMask == (_hitMask | (1 << collision.gameObject.layer)))
         {
-            //collision.gameObject.SetActive(false);
-
+            if (collision.TryGetComponent<PlayerBehaviour>(out PlayerBehaviour player))
+            {
+                player.PlayHitAnimation();
+                player.ReduceLife();
+            }
         }
     }
 

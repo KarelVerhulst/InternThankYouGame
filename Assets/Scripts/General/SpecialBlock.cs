@@ -37,9 +37,6 @@ public class SpecialBlock : MonoBehaviour
 
         if (_reward.TryGetComponent<HeartBehaviour>(out HeartBehaviour heart))
         {
-            
-            //other.GetComponentInParent<UIPlayerBehaviour>().FillALifeHeart(other.GetComponentInParent<PlayerBehaviour>().LifeIndex);
-            //other.GetComponentInParent<PlayerBehaviour>().LifeIndex++;
             other.GetComponentInParent<PlayerBehaviour>().IncreaseLife();
             //heart.PlayHeartSound();
         }

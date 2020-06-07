@@ -37,6 +37,8 @@ public class GroundEnemeyBehaviour : MonoBehaviour
     private Vector2 _scale;
     private Rigidbody2D _rb;
 
+    private bool _startWalking = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -48,16 +50,18 @@ public class GroundEnemeyBehaviour : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (_currentState != EnemyState.Dead)
+        if (_startWalking)
         {
-            UpdateEnemyPosition();
-            CheckGround();
-        }
-        else
-        {
-            Dead();
-        }
-            
+            if (_currentState != EnemyState.Dead)
+            {
+                UpdateEnemyPosition();
+                CheckGround();
+            }
+            else
+            {
+                Dead();
+            }
+        } 
     }
 
     private void UpdateEnemyPosition()
@@ -147,6 +151,11 @@ public class GroundEnemeyBehaviour : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("ActivateEnemy"))
+        {
+            _startWalking = true;
+        }
+
         if (_playerBottomMask == (_playerBottomMask | (1 << collision.gameObject.layer)))
         {
             Camera.main.GetComponent<CameraBehaviour>().ShakeCamera();
