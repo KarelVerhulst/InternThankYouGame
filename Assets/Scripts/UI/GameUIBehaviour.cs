@@ -17,6 +17,7 @@ public class GameUIBehaviour : MonoBehaviour
 
     void Start()
     {
+        Cursor.visible = _showPauze;
         _headSprite.sprite =  _headSprites[PlayerPrefs.GetInt("CharacterSpriteIndex")];
         EnablePausePanel(_showPauze);
         _gameOverPanel.gameObject.SetActive(false);
@@ -43,6 +44,8 @@ public class GameUIBehaviour : MonoBehaviour
 
     private void EnablePausePanel(bool activatePanel)
     {
+        Cursor.visible = _showPauze;
+
         _pausePanel.gameObject.SetActive(activatePanel);
 
         if (activatePanel)
@@ -57,6 +60,7 @@ public class GameUIBehaviour : MonoBehaviour
 
     private void EnableGameOverPanel()
     {
+        Cursor.visible = true;
         _gameOverPanel.gameObject.SetActive(true);
     }
 

@@ -30,6 +30,8 @@ public class GroundEnemeyBehaviour : MonoBehaviour
     [SerializeField] private float _collisionWallRadius = 0.25f;
     [Header("Animations")]
     [SerializeField] private Animator _animator;
+    [SerializeField] private AudioSource _audio;
+    [SerializeField] private AudioClip _hitSound;
 
     private EnemyState _currentState = EnemyState.Falling;
 
@@ -160,6 +162,7 @@ public class GroundEnemeyBehaviour : MonoBehaviour
         {
             Camera.main.GetComponent<CameraBehaviour>().ShakeCamera();
 
+            _audio.PlayOneShot(_hitSound);
             _currentState = EnemyState.Dead;
 
             collision.GetComponentInParent<Rigidbody2D>().velocity = Vector2.up * 5;

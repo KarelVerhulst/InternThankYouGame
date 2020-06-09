@@ -19,6 +19,7 @@ public class CameraBehaviour : MonoBehaviour
 
     private Vector2 _velocity;
 
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.R))

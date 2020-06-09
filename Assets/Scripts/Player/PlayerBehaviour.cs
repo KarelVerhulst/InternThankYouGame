@@ -36,6 +36,9 @@ public class PlayerBehaviour : MonoBehaviour
 
     [SerializeField] private List<Animator> _spriteCharacters = new List<Animator>();
     [SerializeField] private ParticleSystem _dustEffect = null;
+    [SerializeField] private AudioSource _audio;
+    [SerializeField] private AudioClip _gameOverSound;
+    [SerializeField] private AudioClip _hitSound;
 
 
     private Animator _animator = null;
@@ -55,6 +58,8 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private float _slideSpeed = 1.9f;
 
     public int LifeIndex { get; set; }
+
+    private bool _playOneTime = true;
 
     private void Awake()
     {
@@ -80,6 +85,12 @@ public class PlayerBehaviour : MonoBehaviour
 
         if (_currentState == PlayerState.Dead)
         {
+            if (_playOneTime)
+            {
+                _audio.PlayOneShot(_gameOverSound);
+                _playOneTime = false;
+            }
+           
             _animator.SetTrigger("TriggerHit");
             return;
         }
@@ -202,7 +213,7 @@ public class PlayerBehaviour : MonoBehaviour
 
             if (_oneTime)
             {
-              
+                _audio.PlayOneShot(_hitSound);
                 ReduceLife();
 
                 _oneTime = false;

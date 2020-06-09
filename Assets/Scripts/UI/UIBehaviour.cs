@@ -10,7 +10,10 @@ public class UIBehaviour : MonoBehaviour
     [SerializeField] private RectTransform _indexPanel = null;
     [SerializeField] private RectTransform _howToPlayPanel = null;
 
-
+    void Start()
+    {
+        Cursor.visible = true;
+    }
 
     public void GoToScene(int sceneIndex)
     {

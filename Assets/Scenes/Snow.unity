@@ -5642,7 +5642,15 @@ MonoBehaviour:
   _playerMask:
     serializedVersion: 2
     m_Bits: 1024
+  _audio: {fileID: 952433801}
+  _specialCoinSound: {fileID: 8300000, guid: 3b6d0d2ea107a408387a5ca998c39d63, type: 3}
   _specialCoinIndex: 1
+--- !u!82 &952433801 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -6086511281296145548, guid: de892e8fbc5ec41f2854fbb3e11c5580,
+    type: 3}
+  m_PrefabInstance: {fileID: 952433797}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &955565948
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51989,7 +51997,15 @@ MonoBehaviour:
   _playerMask:
     serializedVersion: 2
     m_Bits: 1024
+  _audio: {fileID: 1550886409}
+  _specialCoinSound: {fileID: 8300000, guid: 3b6d0d2ea107a408387a5ca998c39d63, type: 3}
   _specialCoinIndex: 2
+--- !u!82 &1550886409 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -6086511281296145548, guid: de892e8fbc5ec41f2854fbb3e11c5580,
+    type: 3}
+  m_PrefabInstance: {fileID: 1550886405}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1557414520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -106088,11 +106104,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 431695267, guid: de892e8fbc5ec41f2854fbb3e11c5580, type: 3}
+      propertyPath: _specialCoinSound
+      value: 
+      objectReference: {fileID: 8300000, guid: 3b6d0d2ea107a408387a5ca998c39d63, type: 3}
+    - target: {fileID: 431695267, guid: de892e8fbc5ec41f2854fbb3e11c5580, type: 3}
+      propertyPath: _audio
+      value: 
+      objectReference: {fileID: 2030038199}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de892e8fbc5ec41f2854fbb3e11c5580, type: 3}
 --- !u!4 &2030038198 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2609485779229683236, guid: de892e8fbc5ec41f2854fbb3e11c5580,
+    type: 3}
+  m_PrefabInstance: {fileID: 2030038197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &2030038199 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: -6086511281296145548, guid: de892e8fbc5ec41f2854fbb3e11c5580,
     type: 3}
   m_PrefabInstance: {fileID: 2030038197}
   m_PrefabAsset: {fileID: 0}
@@ -106669,6 +106699,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -1972811813698424267, guid: 31a8bfd5d5bcd47d6801ef5765ddbc0f,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: aa98d911d1bfc424eb90be727e7b03a0, type: 3}
     - target: {fileID: 3407100779012053512, guid: 31a8bfd5d5bcd47d6801ef5765ddbc0f,
         type: 3}
       propertyPath: m_Name

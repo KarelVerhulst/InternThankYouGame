@@ -171,6 +171,7 @@ MonoBehaviour:
   _rewardObject: {fileID: 1699819097478233939, guid: 7f820549c878a4f11bb4839369e176da,
     type: 3}
   _rewardPosition: {fileID: 7888120029342216502}
+  _hitColor: {r: 0.12941177, g: 0.5254902, b: 0.5803922, a: 1}
 --- !u!1 &6728860124055109369
 GameObject:
   m_ObjectHideFlags: 0

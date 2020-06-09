@@ -201,3 +201,4 @@ MonoBehaviour:
   _rewardObject: {fileID: 1699819097478233939, guid: 7f820549c878a4f11bb4839369e176da,
     type: 3}
   _rewardPosition: {fileID: 9195901986054722510}
+  _hitColor: {r: 0.64705884, g: 0.23529413, b: 0.0627451, a: 1}
