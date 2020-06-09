@@ -31,6 +31,7 @@ public class PlayerBehaviour : MonoBehaviour
     [SerializeField] private CircleCollider2D _bottomCollider;
 
     [SerializeField] private Vector2 sideOffset;
+    [SerializeField] private Vector2 sideOffsetLeft;
     [SerializeField] private float collisionSideRadius = 0.25f;
 
     [SerializeField] private List<Animator> _spriteCharacters = new List<Animator>();
@@ -185,10 +186,12 @@ public class PlayerBehaviour : MonoBehaviour
                 Flip();
             }
         }
+        bool leftSideHit = false;
 
         hitOnTheSide = Physics2D.OverlapCircle((Vector2)transform.position + sideOffset, collisionSideRadius, _enemyMask);
+        leftSideHit = Physics2D.OverlapCircle((Vector2)transform.position + sideOffsetLeft, collisionSideRadius, _enemyMask);
 
-        if (hitOnTheSide)
+        if (hitOnTheSide || leftSideHit)
         {
             _animator.SetTrigger("TriggerHit");
 
@@ -199,6 +202,7 @@ public class PlayerBehaviour : MonoBehaviour
 
             if (_oneTime)
             {
+              
                 ReduceLife();
 
                 _oneTime = false;
@@ -224,6 +228,7 @@ public class PlayerBehaviour : MonoBehaviour
 
         Gizmos.DrawWireSphere((Vector2)transform.position  + bottomOffset, collisionRadius);
         Gizmos.DrawWireSphere((Vector2)transform.position  + sideOffset, collisionSideRadius);
+        Gizmos.DrawWireSphere((Vector2)transform.position  + sideOffsetLeft, collisionSideRadius);
     }
 
     private void Flip(){

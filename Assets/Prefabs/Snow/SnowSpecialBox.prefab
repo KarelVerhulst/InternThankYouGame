@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 6540891362514934423}
   - component: {fileID: 4092633461424652501}
   - component: {fileID: 6170053702474730009}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: SnowSpecialBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

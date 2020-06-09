@@ -2894,8 +2894,8 @@ MonoBehaviour:
   - {fileID: 1989913316}
   - {fileID: 678505410}
   _moveDuration: 15
-  _timeToStart: 2
-  _repeatRate: 25
+  _timeToStart: 1
+  _repeatRate: 20
 --- !u!1 &678505409
 GameObject:
   m_ObjectHideFlags: 0

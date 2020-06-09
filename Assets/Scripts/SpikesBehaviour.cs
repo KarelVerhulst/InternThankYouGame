@@ -6,12 +6,15 @@ public class SpikesBehaviour : MonoBehaviour
 {
     [SerializeField] private LayerMask _playerMask;
 
-    private float _countDownTimer =20f;
+    [SerializeField] private float _maxDownTimer = 20f;
+
+    private float _countDownTimer;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (_playerMask == (_playerMask | (1 << collision.gameObject.layer)))
         {
+            _countDownTimer = _maxDownTimer;
             HitPlayer(collision);
         }
     }
@@ -25,7 +28,7 @@ public class SpikesBehaviour : MonoBehaviour
             if (_countDownTimer <= 0)
             {
                 HitPlayer(collision);
-                _countDownTimer = 20;
+                _countDownTimer = _maxDownTimer;
             }
         }
     }

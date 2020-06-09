@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 7033581466647665085}
   - component: {fileID: 3348526934367932680}
   - component: {fileID: 8928836556415650514}
-  m_Layer: 0
+  m_Layer: 17
   m_Name: ForestSpecialBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}

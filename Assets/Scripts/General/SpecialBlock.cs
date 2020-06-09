@@ -32,6 +32,7 @@ public class SpecialBlock : MonoBehaviour
 
         if (_reward.TryGetComponent<CoinBehaviour>(out CoinBehaviour coin))
         {
+           other.GetComponentInParent<UIPlayerBehaviour>().Score++;
             coin.PlayCoinSound();
         }
 

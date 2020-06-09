@@ -4830,7 +4830,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 512
   speed: 4.5
-  jumpForce: 8
+  jumpForce: 8.2
   onGround: 0
   bottomOffset: {x: 0, y: -0.61}
   collisionRadius: 0.5
@@ -4841,8 +4841,9 @@ MonoBehaviour:
     m_Bits: 2048
   _playerCollider: {fileID: 3325283849778720898}
   _bottomCollider: {fileID: 3325283851131622079}
-  sideOffset: {x: 0, y: 0.08}
-  collisionSideRadius: 0.88
+  sideOffset: {x: 0.67, y: -0.42}
+  sideOffsetLeft: {x: -0.67, y: -0.42}
+  collisionSideRadius: 0.2
   _spriteCharacters:
   - {fileID: 1230459147321938546, guid: b1a792fcf31b947f7a2630cd99a01f6a, type: 3}
   - {fileID: 1230459147321938546, guid: 220026524baa94f7ba3041727729b326, type: 3}

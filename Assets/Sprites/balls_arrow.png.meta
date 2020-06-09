@@ -1,16 +1,19 @@
 fileFormatVersion: 2
-guid: 2edac109652e247b9a5d0df3b117e996
+guid: dbb46f2ba63ae45a7adc87bf5ec951ab
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -401452918784908339
-    second: FireBall
+      213: 5942938236315010082
+    second: Fire Ball
   - first:
-      213: -7795004482728787120
-    second: IceBall
+      213: 6817476384747608319
+    second: Ice Ball
   - first:
       213: 7034423813313189624
     second: Arrow
+  - first:
+      213: -4792897609884960565
+    second: Button Arrow
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -107,7 +110,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FireBall
+      name: Fire Ball
       rect:
         serializedVersion: 2
         x: 0
@@ -121,14 +124,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 910fb0658625a4ac595efa16727e715a
-      internalID: -401452918784908339
+      spriteID: 6b740729c04dd49ea9b6c9acf4196272
+      internalID: 5942938236315010082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IceBall
+      name: Ice Ball
       rect:
         serializedVersion: 2
         x: 20
@@ -142,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1bea9d396305848829fdf144ecc41696
-      internalID: -7795004482728787120
+      spriteID: 8a1fc88317e724bae82f281123ef4105
+      internalID: 6817476384747608319
       vertices: []
       indices: 
       edges: []
@@ -163,8 +166,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bcaf1d367b9db481cb2acc144094d6d1
+      spriteID: cf22b891c47b04d8fac844f7fad861f1
       internalID: 7034423813313189624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Button Arrow
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 0
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d021861fc5bdd4114b76e014533ee5aa
+      internalID: -4792897609884960565
       vertices: []
       indices: 
       edges: []

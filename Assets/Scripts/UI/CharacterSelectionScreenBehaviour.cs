@@ -40,6 +40,7 @@ public class CharacterSelectionScreenBehaviour : MonoBehaviour
 
     public void SelectChoosenCharacter()
     {
+        PlayerPrefs.SetInt("CoinScore", 0);
         PlayerPrefs.SetInt("CharacterSpriteIndex", _characterIndex);
         PlayerPrefs.SetInt("lifes", 3);
 
