@@ -77,7 +77,7 @@ public class PlayerBehaviour : MonoBehaviour
 
     void Update()
     {
-
+       
         if (LifeIndex <= 0)
         {
             _currentState = PlayerState.Dead;

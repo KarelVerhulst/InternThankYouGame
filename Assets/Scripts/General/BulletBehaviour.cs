@@ -8,7 +8,7 @@ public class BulletBehaviour : MonoBehaviour
     [SerializeField] private float _speed = 20;
 
 
-    private float _countDownTimer = 5;
+    private float _countDownTimer = 3;
 
     public Vector2 ShootPosition { get; set; }
     public bool ShootDiagonally { get; set; }
@@ -42,6 +42,8 @@ public class BulletBehaviour : MonoBehaviour
                 player.PlayHitAnimation();
                 player.ReduceLife();
             }
+
+            Destroy(this.gameObject);
         }
     }
 

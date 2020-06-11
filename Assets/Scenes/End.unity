@@ -1040,6 +1040,7 @@ MonoBehaviour:
   _titleText: {fileID: 873206065}
   _indexPanel: {fileID: 2021451891}
   _howToPlayPanel: {fileID: 0}
+  _creditPanel: {fileID: 0}
 --- !u!1 &2013126124
 GameObject:
   m_ObjectHideFlags: 0

@@ -98,7 +98,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _hitMask:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 3328
   _speed: 10
 --- !u!50 &3589625246747523576
 Rigidbody2D:

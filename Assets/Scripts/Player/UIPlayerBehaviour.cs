@@ -63,6 +63,6 @@ public class UIPlayerBehaviour : MonoBehaviour
     public void FillALifeHeart(int index)
     {
         _listOfHearts[index].sprite = _fullHeart;
-        PlayerPrefs.SetInt("lifes", index);
+        PlayerPrefs.SetInt("lifes", index + 1);
     }
 }
